@@ -4,8 +4,7 @@
 
 
 int main()
-{   
-    
+{       
         //Inicializações necessárias
         contador_letras = 0;
         contador_erros  = 0;    
@@ -46,16 +45,14 @@ int main()
                     cout << "Letra incorreta! Tente outra." << endl;
                     contador_erros++;
                 } 
-            }  
-        
+            }          
         }
 
         if(contador_erros >= 6)
         {
             system("clear");
             cout << "\nSuas tentativas acabaram! Você perdeu :(" << endl << endl;
-            getchar();
-            
+            getchar();            
         }
 
         if(palavra_completa() == true)
