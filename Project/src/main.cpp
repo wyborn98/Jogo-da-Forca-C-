@@ -12,8 +12,7 @@ int main()
         limpar_campos();
 
         while(contador_erros < 6 && palavra_completa() == false)
-        {   
-                        
+        {                           
             system("clear");
             imprimir_corpo(contador_erros);
             cout << endl;
